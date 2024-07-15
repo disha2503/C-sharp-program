@@ -1,0 +1,23 @@
+Remove whitespace
+
+using System;
+
+using System.Text;
+namespace whitespace
+{
+    class Program
+    {
+        static void Main()
+        {
+             StringBuilder str =new StringBuilder( "Hello Everyone");
+            Console.WriteLine(str.ToString());
+            str.Replace(" ", "");
+            Console.WriteLine(str.ToString());
+            Console.ReadLine();
+        }
+    }
+}
+
+Output
+Hello Everyone
+HelloEveryone
